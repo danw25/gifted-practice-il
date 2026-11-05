@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#183c3a">
+    <meta name="description" content="מרחב תרגול אישי בעברית: שאלות חשיבה מקוריות, מבחני תרגול והסברים לתלמידי כיתה ו׳.">
+    <title>צעד קדימה · מרחב תרגול למחוננים</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">דילוג לתוכן</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="צעד קדימה — הבית">
+        <span class="brand-icon" aria-hidden="true">↗</span>
+        <span>צעד קדימה<span class="brand-caption">סקרנות. חשיבה. ביטחון.</span></span>
+      </a>
+      <nav aria-label="ניווט ראשי">
+        <button id="home-nav" class="nav-button active" type="button">מרחב התרגול</button>
+        <button id="history-nav" class="nav-button" type="button">ההתקדמות שלי</button>
+      </nav>
+      <span class="grade-label">כיתה ו׳ <span aria-hidden="true">✦</span></span>
+    </header>
+    <div id="storage-warning" class="notice warning" role="status" hidden></div>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer">
+      <span>קצת סקרנות, צעד גדול קדימה.</span>
+      <span>תרגול עצמאי · ללא שיוך למשרד החינוך</span>
+      <button id="about-button" class="text-button" type="button">על התרגול והפרטיות</button>
+    </footer>
+    <dialog id="modal" aria-labelledby="modal-title">
+      <div id="modal-content"></div>
+    </dialog>
+    <noscript><p class="notice">כדי לתרגל באתר, יש להפעיל JavaScript בדפדפן. אין צורך בחשבון או בהתקנה.</p></noscript>
+  </body>
+</html>
